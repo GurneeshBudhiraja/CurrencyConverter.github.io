@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/d93a96f0ff.js" crossorigin="anonymous"></script>
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <!-- style.css -->
+  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Converter</title>
+</head>
+<body>
+  <div class="container">
+    <h2 class="heading">Currency Converter</h2>
+    <form>
+      <div class="amount">
+        <label>Enter Amount</label><br>
+        <input type="number" min="1" required>
+      </div>
+      <div class="inputs">
+        <div class="from">
+          <label>From</label><br>
+          <div class="from-inside">
+            <img src="https://flagsapi.com/US/flat/64.png">
+            <select class="country">
+              <option value="USD">USD</option>
+            </select> 
+          </div>
+        </div>
+        <i class="fa-solid fa-arrow-right-arrow-left"></i>
+        <div class="to">
+          <label>To</label><br>
+          <div class="to-inside">
+            <img src="https://flagsapi.com/IN/flat/64.png">
+            <select class="country">
+              <option value="INR">INR</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <p class="result">1 USD = 80 INR</p>
+      <button class="submit">Get Exchange Rate</button>
+    </form>
+  </div>
+
+
+  <script src="country.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

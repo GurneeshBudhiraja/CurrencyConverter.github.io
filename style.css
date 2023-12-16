@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #F5CDA7;
+  color: #df6332;
+}
+
+.container {
+  padding: 2rem;
+  border-radius: 1rem;
+  border: 0.1rem solid gray; 
+  background-color: #DCDBA8;
+}
+.container h2 {
+  text-align: center;
+  margin-bottom: 1.25rem;
+  color:#df6332;
+}
+.amount {
+  color: #df6332;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.amount input {
+  outline: none;
+  border: 0.1rem solid gray;
+  border-radius: 0.5rem;
+  margin-top: 0.15rem;
+  padding: 0.8rem 0.35rem;
+  width: 100%;
+  height: 1.3rem;
+  color: #000;
+  font-size: 1.05rem;
+
+}
+
+.inputs {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.inputs img {
+  height: 2rem;
+  width: 2rem;
+}
+.inputs i {
+  margin-top: 1.2rem;
+}
+.from, .to {
+  display: flex;
+  flex-direction: column;
+
+}
+.from-inside, .to-inside {
+  padding: 0.1rem;
+  margin-top: -1rem;
+  background-color: #f7ffc5;
+  border-radius: 0.2rem;
+  border:0.1rem solid gray;
+  display: flex;
+}
+.submit {
+  cursor: pointer;
+  position: relative;
+  margin: 1.5rem 0;
+  padding: 0.5rem 0;
+  height: 2rem;
+  border: 0.1rem solid gray;
+  border-radius: 0.2rem;
+  box-shadow: 0.2rem 0.2rem 0.1rem rgba(0, 0, 0, 0.76);
+  transition:  left 0.3s ease, top 0.3s ease, box-shadow 0.1s ease;
+}
+.submit:active { 
+  left: 0.3rem;
+  top: 0.3rem;
+  box-shadow: none;
+}
+p {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1.25rem;
+}
+
+
+
+
+
+
+
+
+
+
+
