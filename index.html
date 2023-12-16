@@ -19,30 +19,30 @@
     <form>
       <div class="amount">
         <label>Enter Amount</label><br>
-        <input type="number" min="1" required>
+        <input type="number" min="1" required value="1">
       </div>
       <div class="inputs">
         <div class="from">
           <label>From</label><br>
-          <div class="from-inside">
-            <img src="https://flagsapi.com/US/flat/64.png">
-            <select class="country">
-              <option value="USD">USD</option>
+          <div class="dropdowns">
+            <img class="flag">
+            <select name="from" class="country">
+              <!-- <option value="USD">USD</option> -->
             </select> 
           </div>
         </div>
         <i class="fa-solid fa-arrow-right-arrow-left"></i>
         <div class="to">
           <label>To</label><br>
-          <div class="to-inside">
-            <img src="https://flagsapi.com/IN/flat/64.png">
-            <select class="country">
-              <option value="INR">INR</option>
+          <div class="dropdowns">
+            <img class="flag">
+            <select name="to" class="country">
+              <!-- <option value="INR">INR</option> -->
             </select>
           </div>
         </div>
       </div>
-      <p class="result">1 USD = 80 INR</p>
+      <p class="result"></p>
       <button class="submit">Get Exchange Rate</button>
     </form>
   </div>
