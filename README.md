@@ -1,5 +1,6 @@
 # 💵💱Currency Converter💱💵
 ### A simple currency converter web application that allows users to convert between different currencies.
+### The currency converter web app is hosted on this URL: https://gurneeshbudhiraja.github.io/CurrencyConverter.github.io/
 ## Screenshot
 ![image](https://github.com/GurneeshBudhiraja/Currency-Converter/assets/140137709/a081f8ac-1ef4-44b6-a184-dc712ccaa0fb)
 
